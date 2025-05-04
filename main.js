@@ -23,7 +23,7 @@ function globalCheck() {
      else if (data.langht<10 || !data.includes("/") ) {
        error = "Дата народження не вірна стандартам ...🤷"
      }
-     else if (phoneNumber.length<11 || isNaN(phoneNumber)){
+     else if (phoneNumber.length<13 || isNaN(phoneNumber)){
        error = "номер телефону неправидьний ...🤷"
      }
      
